@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amy.pet | the developer you need</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@700,500,600&f[]=author@500,600,700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <div class="starry-night"></div>
+
+    <div class="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <div class="noise"></div>
+    <div class="grain"></div>
+    
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="./images/static/star.png" alt="Star" class="logo-icon">
+                amy.pet
+            </a>
+            <div class="nav-links">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="fade-in">
+                    the&nbsp;<span class="word-cycle"></span><br>
+                    developer<br>for hire
+                </h1>
+                <p class="hero-text fade-in">Ready to create your ideas into functional projects, combining clean code & thoughtful design into solutions that work.</p>
+                <div class="hero-cta fade-in">
+                    <a href="#contact" class="btn-primary">Start a project</a>
+                    <a href="#work" class="btn-secondary">View my work</a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in">
+                <div class="gradient-sphere"></div>
+                <img src="./images/static/hero.png" alt="Cute cat mascot" class="hero-mascot">
+                <div class="floating-elements">
+                    <span class="tag">Developer</span>
+                    <span class="tag">Designer</span>
+                    <span class="tag">Creator</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <div class="work-header fade-in">
+                <span class="section-tag">Featured Work</span>
+                <h2>Recent Projects</h2>
+            </div>
+
+            <div class="project-showcase fade-in">
+                <div class="project-track">
+                    <div class="project-card" data-project="autoguessr">
+                        <img src="./images/projects/autoguessr/autoguessr.png" alt="AutoGuessr" class="project-image">
+                        <div class="project-details">
+                            <h3>AutoGuessr</h3>
+                            <p>A fully automatic GeoGuessr bot to farm XP, medals and achievements.</p>
+                            <div class="project-tags">
+                                <span class="tag-js" title="JavaScript"><i class="devicon-javascript-plain"></i></span>
+                                <span class="tag-electron" title="Electron"><i class="devicon-electron-original"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-project="tindervm">
+                        <img src="./images/projects/tindervm/tindervm.png" alt="TinderVM" class="project-image">
+                        <div class="project-details">
+                            <h3>TinderVM</h3>
+                            <p>Automically sends out Tinder reset emails and saves the reset urls.</p>
+                            <div class="project-tags">
+                                <span class="tag-python" title="Python"><i class="devicon-python-plain"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="imvucheck">
+                        <img src="./images/projects/imvucheck/imvucheck.png" alt="IMVUCheck" class="project-image">
+                        <div class="project-details">
+                            <h3>IMVUCheck</h3>
+                            <p>The fastest IMVU account checker.</p>
+                            <div class="project-tags">
+                                <span class="tag-golang" title="GoLang"><i class="devicon-go-original-wordmark"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-container">
+                <div class="about-left fade-in">
+                    <div class="mascot-wrapper">
+                        <img src="./images/static/me.png" alt="About me mascot" class="mascot">
+                    </div>
+                </div>
+                
+                <div class="about-right slide-up">
+                    <div class="section-header">
+                        <span class="section-subtitle">About Me</span>
+                        <h2>Fullstack Developer</h2>
+                    </div>
+                    
+                    <p class="about-description">
+                        I'm a passionate software development student dedicated to helping people bring their ideas to life through code. 
+                        With a strong foundation in full-stack development and a keen eye for UI/UX design, I love developing solutions that are both functional and visually appealing.
+                        In my free time, I enjoy taking on freelance projects to further hone my skills.
+                    </p>
+
+                    <div class="tech-container">
+                        <div class="tech-row">
+                            <span class="tech-label">Languages</span>
+                            <div class="tech-pills">
+                                <span class="tech-pill">JavaScript</span>
+                                <span class="tech-pill">GoLang</span>
+                                <span class="tech-pill">Python</span>
+                                <span class="tech-pill">C++</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-row">
+                            <span class="tech-label">Frontend</span>
+                            <div class="tech-pills">
+                                <span class="tech-pill">React</span>
+                                <span class="tech-pill">Next.js</span>
+                                <span class="tech-pill">HTML/CSS</span>
+                            </div>
+                        </div>
+
+                        <div class="tech-row">
+                            <span class="tech-label">Backend</span>
+                            <div class="tech-pills">
+                                <span class="tech-pill">Node.js</span>
+                                <span class="tech-pill">Express</span>
+                                <span class="tech-pill">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact-container">
+                <div class="section-header fade-in">
+                    <span class="section-subtitle">Get in Touch</span>
+                    <h2 class="contact-heading">Let's Connect</h2>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info fade-in">
+                        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out to me on any of the platforms below:</p>
+                    </div>
+                    <div class="contact-cards slide-up">
+                        <div class="contact-card" onclick="copyDiscordUsername()">
+                            <i class="ph-discord-logo"></i>
+                            <span class="card-username">cursoramy</span>
+                            <span class="card-platform">Discord</span>
+                            <span class="copy-tooltip">Click to copy</span>
+                        </div>
+                        <a href="https://t.me/acacia" target="_blank" class="contact-card">
+                            <i class="ph-telegram-logo"></i>
+                            <span class="card-username">@acacia</span>
+                            <span class="card-platform">Telegram</span>
+                        </a>
+                        <a href="https://oguser.com/amy" target="_blank" class="contact-card">
+                            <i class="ph-user"></i>
+                            <span class="card-username">amy</span>
+                            <span class="card-platform">OGUsers</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 amy.pet</p>
+            <div class="footer-links">
+                <a href="mailto:hello@amy.pet">hi@amy.pet</a>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <div class="modal-gallery">
+                <div class="modal-gallery-stars">
+                    <!-- Stars will be added here by JavaScript -->
+                </div>
+                <div class="gallery-container">
+                    <!-- Images will be inserted here by JavaScript -->
+                </div>
+                <button class="gallery-nav gallery-prev">❮</button>
+                <button class="gallery-nav gallery-next">❯</button>
+                <div class="gallery-dots">
+                    <!-- Dots will be inserted here by JavaScript -->
+                </div>
+            </div>
+            <div class="modal-info">
+                <div class="modal-title-container">
+                    <p class="modal-subtitle"></p>
+                    <h2 class="modal-title"></h2>
+                    <div class="modal-tech-tags">
+                        <!-- Tech icons will be inserted here by JavaScript -->
+                    </div>
+                </div>
+                <div class="modal-description">
+                    <p class="modal-text"></p>
+                </div>
+                <div class="modal-links">
+                    <!-- Links will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </div>
+        <button class="modal-close">&times;</button>
+    </div>
+</body>
+</html> 
